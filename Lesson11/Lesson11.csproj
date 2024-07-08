@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Lesson11.Method</StartupObject>
+    <StartupObject>Lesson11.Bai04</StartupObject>
   </PropertyGroup>
 
 </Project>
