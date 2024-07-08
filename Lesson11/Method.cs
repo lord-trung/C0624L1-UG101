@@ -8,6 +8,15 @@ class Method
         Console.InputEncoding = Encoding.Unicode;
         Console.OutputEncoding = Encoding.Unicode;
 
-        
+        // Khai báo hàm
+        static void PrintHelloWorld()
+        {
+            Console.WriteLine("Hello World");
+            Console.WriteLine("Hello World");
+            Console.WriteLine("Hello World");
+        }
+
+        // Chạy hàm PrintHelloWorld
+        PrintHelloWorld();
     }
 }
