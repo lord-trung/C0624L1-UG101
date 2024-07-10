@@ -31,6 +31,7 @@ class Bai01
 
     static void Menu()
     {
+        Console.Clear();
         Console.WriteLine("-----------MENU-----------");
         Console.WriteLine($" 1: Thực hiện phép cộng.");
         Console.WriteLine($" 2: Thực hiện phép trừ.");
