@@ -31,7 +31,6 @@ class Bai01
 
     static void Menu()
     {
-        Console.Clear();
         Console.WriteLine("-----------MENU-----------");
         Console.WriteLine($" 1: Thực hiện phép cộng.");
         Console.WriteLine($" 2: Thực hiện phép trừ.");
@@ -57,18 +56,22 @@ class Bai01
                     Menu();
                     break;
                 case 1:
+                    Console.Clear();
                     Console.WriteLine("BẠN CHỌN PHÉP CỘNG");
                     Menu();
                     break;
                 case 2:
+                    Console.Clear();
                     Console.WriteLine("BẠN CHỌN PHÉP TRỪ");
                     Menu();
                     break;
                 case 3:
+                    Console.Clear();
                     Console.WriteLine("BẠN CHỌN PHÉP NHÂN");
                     Menu();
                     break;
                 case 4:
+                    Console.Clear();
                     Console.WriteLine("BẠN CHỌN PHÉP CHIA");
                     Menu();
                     break;
@@ -81,6 +84,7 @@ class Bai01
         }
         else
         {
+            Console.Clear();
             Menu();
         }
 
