@@ -107,7 +107,7 @@ class Bai11
             int y;
             int.TryParse(Console.ReadLine(), out y);
 
-            if (x <= 0 || x >= n || y <= 0 || y >= 15 || caroTable[x, y] != "-")
+            if (x <= 0 || x >= n || y <= 0 || y >= n || caroTable[x, y] != "-")
             {
                 Console.WriteLine("Invalid Position");
                 goto repeatInput;
