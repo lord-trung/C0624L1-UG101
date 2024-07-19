@@ -1,0 +1,15 @@
+E:\Learning\C0624L1-UG101\Lesson16\bin\Debug\net8.0\Lesson16.exe
+E:\Learning\C0624L1-UG101\Lesson16\bin\Debug\net8.0\Lesson16.deps.json
+E:\Learning\C0624L1-UG101\Lesson16\bin\Debug\net8.0\Lesson16.runtimeconfig.json
+E:\Learning\C0624L1-UG101\Lesson16\bin\Debug\net8.0\Lesson16.dll
+E:\Learning\C0624L1-UG101\Lesson16\bin\Debug\net8.0\Lesson16.pdb
+E:\Learning\C0624L1-UG101\Lesson16\obj\Debug\net8.0\Lesson16.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learning\C0624L1-UG101\Lesson16\obj\Debug\net8.0\Lesson16.AssemblyInfoInputs.cache
+E:\Learning\C0624L1-UG101\Lesson16\obj\Debug\net8.0\Lesson16.AssemblyInfo.cs
+E:\Learning\C0624L1-UG101\Lesson16\obj\Debug\net8.0\Lesson16.csproj.CoreCompileInputs.cache
+E:\Learning\C0624L1-UG101\Lesson16\obj\Debug\net8.0\Lesson16.sourcelink.json
+E:\Learning\C0624L1-UG101\Lesson16\obj\Debug\net8.0\Lesson16.dll
+E:\Learning\C0624L1-UG101\Lesson16\obj\Debug\net8.0\refint\Lesson16.dll
+E:\Learning\C0624L1-UG101\Lesson16\obj\Debug\net8.0\Lesson16.pdb
+E:\Learning\C0624L1-UG101\Lesson16\obj\Debug\net8.0\Lesson16.genruntimeconfig.cache
+E:\Learning\C0624L1-UG101\Lesson16\obj\Debug\net8.0\ref\Lesson16.dll
