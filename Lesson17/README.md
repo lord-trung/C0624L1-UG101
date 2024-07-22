@@ -5,6 +5,7 @@ Bài 2:
 Thiết kế và triển khai lớp Circle (hình tròn) và lớp con của nó Cylinder (hình trụ). Lớp Circle có những thuộc tính mô tả bán kính, màu sắc, các getter/setter cho các thuộc tính đó, và những thuộc tính liên đới như diện tích. Lớp Cylinder mở rộng lớp Circle bằng cách bổ sung thuộc tính chiều cao cũng như có thể có thêm phương thức lấy thể tích.
 Cả hai lớp đều phải cài đè phương thức ToString để in ra thông tin chi tiết các thuộc tính của đổi tượng.
 1. Hãy vẽ giản đồ UML cho hai lớp trên, với mô tả về các thuộc tính, các phương thức khởi tạo cần thiết, cũng như các phương thức tính ra các thuộc tính đặc trưng của mỗi lớp.
+https://lucid.app/lucidchart/543a69d7-95db-4b15-aa76-6c010c1ef384/edit?view_items=z8DWOYXE2-1m&invitationId=inv_92a76a09-0a18-40a6-939c-760267707e35
 2. Viết chương trình sử dụng tới hai lớp đối tượng kia với mục đích kiểm thử.
 
 ======================
