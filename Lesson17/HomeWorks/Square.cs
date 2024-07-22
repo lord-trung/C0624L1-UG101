@@ -7,6 +7,16 @@ class Square : Rectangle
         SetWidth(1);
         SetLength(1);
     }
+    public Square(string _color, bool _isFilled) : base(_color, _isFilled)
+    {
+        SetWidth(1);
+        SetLength(1);
+    }
+    public Square(string _color, bool _isFilled, double _side) : base(_color, _isFilled)
+    {
+        SetWidth(_side);
+        SetLength(_side);
+    }
 
     public double GetSide()
     {
@@ -31,6 +41,6 @@ class Square : Rectangle
 
     public override string ToString()
     {
-        return $"A Square with side={this.GetWidth}, which is a subclass of {base.ToString()}";
+        return $"A Square with side = {GetSide()}, which is a subclass of {base.ToString()}";
     }
 }

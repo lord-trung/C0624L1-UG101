@@ -10,8 +10,12 @@ class Circle : Shape
     {
         radius = 1;
     }
-    public Circle(string _color, bool _filled) : base(_color, _filled) { }
-    public Circle(string _color, bool _filled, double _radius) : base(_color, _filled) {
+    public Circle(string _color, bool _filled) : base(_color, _filled)
+    {
+        radius = 1;
+    }
+    public Circle(string _color, bool _filled, double _radius) : base(_color, _filled)
+    {
         radius = _radius;
     }
 

@@ -10,7 +10,11 @@ class Rectangle : Shape
         width = 1;
         length = 1;
     }
-    public Rectangle(string _color, bool _isFilled) : base(_color, _isFilled) { }
+    public Rectangle(string _color, bool _isFilled) : base(_color, _isFilled)
+    {
+        width = 1;
+        length = 1;
+    }
     public Rectangle(string _color, bool _isFilled, double _width, double _length) : base(_color, _isFilled)
     {
         width = _width;
@@ -46,6 +50,6 @@ class Rectangle : Shape
 
     public override string ToString()
     {
-        return $"A Rectangle with width={width} and length={length}, which is a subclass of {base.ToString()}";
+        return $"A Rectangle with width = {width} and length = {length}, which is a subclass of {base.ToString()}";
     }
 }
