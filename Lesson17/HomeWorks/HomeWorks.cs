@@ -5,15 +5,15 @@ class HomeWorks
     static void Main(string[] args)
     {
         Circle circle_1 = new Circle();
-        Circle circle_2 = new Circle("red", false);
+        Circle circle_2 = new Circle(10);
         Circle circle_3 = new Circle("red", false, 10);
 
         Rectangle rectangle_1 = new Rectangle();
-        Rectangle rectangle_2 = new Rectangle("red", false);
+        Rectangle rectangle_2 = new Rectangle(15, 10);
         Rectangle rectangle_3 = new Rectangle("red", false, 15, 10);
 
         Square square_1 = new Square();
-        Square square_2 = new Square("red", false);
+        Square square_2 = new Square(20);
         Square square_3 = new Square("red", false, 20);
 
         Console.WriteLine($"circle_1: {circle_1.ToString()}");

@@ -7,14 +7,14 @@ class Shape
 
     public Shape()
     {
-        color = "green";
-        filled = true;
+        this.color = "green";
+        this.filled = true;
     }
 
     public Shape(string _color, bool _filled)
     {
-        color = _color;
-        filled = _filled;
+        this.color = _color;
+        this.filled = _filled;
     }
 
     public string GetColor()
@@ -28,7 +28,7 @@ class Shape
 
     public bool IsFilled()
     {
-        return filled;
+        return this.filled;
     }
     public void SetFilled(bool _filled)
     {
@@ -37,6 +37,6 @@ class Shape
 
     public virtual string ToString()
     {
-        return $"A Shape with color of {color} and {(filled ? "filled" : "not filled")}";
+        return $"A Shape with color of {this.color} and {(this.filled ? "filled" : "not filled")}";
     }
 }

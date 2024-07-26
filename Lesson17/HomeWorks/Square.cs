@@ -7,6 +7,11 @@ class Square : Rectangle
         SetWidth(1);
         SetLength(1);
     }
+    public Square(double _side)
+    {
+        SetWidth(_side);
+        SetLength(_side);
+    }
     public Square(string _color, bool _isFilled) : base(_color, _isFilled)
     {
         SetWidth(1);

@@ -7,23 +7,28 @@ class Rectangle : Shape
 
     public Rectangle()
     {
-        width = 1;
-        length = 1;
+        this.width = 1;
+        this.length = 1;
+    }
+    public Rectangle(double _width, double _length)
+    {
+        this.length = _length;
+        this.width = _width;
     }
     public Rectangle(string _color, bool _isFilled) : base(_color, _isFilled)
     {
-        width = 1;
-        length = 1;
+        this.width = 1;
+        this.length = 1;
     }
     public Rectangle(string _color, bool _isFilled, double _width, double _length) : base(_color, _isFilled)
     {
-        width = _width;
-        length = _length;
+        this.width = _width;
+        this.length = _length;
     }
 
     public double GetWidth()
     {
-        return width;
+        return this.width;
     }
     public virtual void SetWidth(double _width)
     {
@@ -32,7 +37,7 @@ class Rectangle : Shape
 
     public double GetLength()
     {
-        return length;
+        return this.length;
     }
     public virtual void SetLength(double _length)
     {
@@ -41,15 +46,15 @@ class Rectangle : Shape
 
     public double GetArea()
     {
-        return length * width;
+        return this.length * width;
     }
     public double GetPerimeter()
     {
-        return (length + width) * 2;
+        return (this.length + this.width) * 2;
     }
 
     public override string ToString()
     {
-        return $"A Rectangle with width = {width} and length = {length}, which is a subclass of {base.ToString()}";
+        return $"A Rectangle with width = {this.width} and length = {this.length}, which is a subclass of {base.ToString()}";
     }
 }
