@@ -1,0 +1,4 @@
+[ERROR]: Attempted to divide by zero.
+[ERROR]: 7/29/2024 Attempted to divide by zero.
+[ERROR]: 7/29/2024 - Attempted to divide by zero.
+[ERROR]: 7/29/2024 - Attempted to divide by zero.
