@@ -1,0 +1,3 @@
+Số lượng số chẵn: 30
+Số lượng số lẻ: 20
+Số lượng chính phương: 2

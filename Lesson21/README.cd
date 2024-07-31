@@ -1,0 +1,45 @@
+Bài 1:
+Tại file profile.txt chưa các thông tin cá nhân (họ và tên, ngày sinh, giới tính, email, địa chỉ, số điện thoại,...) mỗi thông tin trên một dòng
+viết chương trình C# đọc dữ liệu từ file trên và hiển thị ra màn hình
+yêu cầu:
+- Trong mã nguồn phải có xử lý ngoại lệ
+- Test ngoại lệ bằng các xóa 1 dòng hoặc đưa các thông tin ko hợp vệ vào file
+
+Bài 2: 
+viết chương trình yêu cầu người dùng nhập vào một số size (size > 0 && size < 100)
+sau đó sinh ra mảng ngẫu nhiên có kích cỡ là size gồm các giá trị trong khoảng [10,90]
+ghi dữ liệu vào file array.txt gồm các thông tin sau:
+- Dòng 1: size
+- Dòng 2: các phần tử trong mảng
+
+Bài 3: 
+sử dụng kết quả của bài 2
+đọc dữ liệu trong file array.txt
+sau đó ghi vào file summary.txt với các thông tin sau:
+- Số lượng số chẵn
+- Số lượng số nguyên tố
+
+Bài 4: 
+Viết chương trình yêu cầu người dùng nhập vào 2 giá trị row và col (0 < row < 10 và 0 < col < 20)
+sau đó tạo ra mảng 2 chiều có kích cỡ row x col gồm các giá trị được sinh ngẫu nhiên trong khoảng [100, 900]
+yêu cầu:
+Ghi dữ liệu vào file input.txt với định dạng như sau
+- dòng 1: gồm 2 giá trị row và col mỗi giá trị cách nhau 1 ký tự trắng ví dụ: 10 15
+- các dòng từ thứ 2 đến n lần lượt ghi dữ liệu từng dòng trong mảng 2 chiều trên
+
+Bài 5: 
+kế thừa kết quả của bài 4
+Viết chương trình đọc dữ liệu trong file input.txt (được tạo ra ở bài 4)
+sau đó ghi dữ liệu vào file result_1.txt với các thông tin sau:
+Tổng giá trị từng hàng trong mảng 2 chiều trên với định dạng như sau:
+	row 1: xxx
+	row 2: yyy
+	row n: zzz
+
+Bài 6: 
+kế thừa kết quả của bài 4
+Viết chương trình đọc dữ liệu trong file input.txt (được tạo ra ở bài 4)
+sau đó ghi dữ liệu vào file result_2.txt với các thông tin sau:
+1. Số lượng số chẵn có trong mảng 2 chiều trên
+2. Số lượng số lẻ có trong mảng 2 chiều trên
+3. Số lượng số chính phương trong mảng 2 chiều trên

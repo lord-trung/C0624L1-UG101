@@ -1,0 +1,2 @@
+Số lượng số chẵn: 6
+Số lượng số nguyên tố: 0

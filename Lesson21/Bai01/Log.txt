@@ -1,0 +1,1 @@
+[ERROR] 7/31/2024 - Could not find file 'E:\Learning\C0624L1-UG101\Lesson21\Bai01\profile2.txt'.
