@@ -25,8 +25,8 @@
     static int delayTime = 550;
     static int minDelayTime = 100;
     static int speed = 1;
-    static int numOfRow = 40;
-    static int numOfCol = 40;
+    static int numOfRow = 10;
+    static int numOfCol = 10;
     static string[,] gameScreen = new string[numOfRow, numOfCol];
     static int headRow = 1;
     static int headCol = 1;
@@ -201,20 +201,20 @@
                 Random random = new Random();
                 row = random.Next(1, numOfRow - 1);
                 col = random.Next(1, numOfCol - 1);
+                check = true;
 
                 for (int i = 0; i < theSnake.Length; i++)
                 {
-                    if (row != snakeHead.row && col != snakeHead.col)
+                    if (row != theSnake[i].row && col != theSnake[i].col)
                     {
-                        check = true;
+                        check = false;
                     }
                 }
 
                 // Gán vị trí mới đã hợp lệ cho thức ăn
                 food = new Point(row, col);
-                isFoodExist = true;
             }
-
+            isFoodExist = true;
         }
     }
 
